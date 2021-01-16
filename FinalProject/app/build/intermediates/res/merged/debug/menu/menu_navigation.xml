@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/group">
+    <group
+        android:id="@+id/firstgroup"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/navItemOne"
+            android:icon="@drawable/ic_menu_home"
+            android:title="首頁" />
+        <item
+            android:id="@+id/navItemAbout"
+            android:icon="@drawable/ic_menu_upload"
+            android:title="上傳圖片" />
+
+    </group>
+    <group android:id="@+id/secondgroup">
+        <item>
+            <item
+                android:id="@+id/navItemLogout"
+                android:icon="@drawable/undo_icon"
+                android:title="登出" />
+        </item>
+    </group>
+</menu>

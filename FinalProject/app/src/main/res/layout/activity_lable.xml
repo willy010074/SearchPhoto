@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chungyu.topic.LableActivity"
+    tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_shape"
+            android:ems="10"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:scrollHorizontally="false"
+            android:scrollbars="vertical"
+            android:singleLine="false"
+            android:text="﹜乙霎J/一一f酎互薑彳`{h︴﹛`‥ˍIf【‥蔓「「譬〝[﹛]‥I‥匕〒未暑白/J木目尾曷 ˍ=伽即  玖文排/ 小中參禾ˍ]tˍˍ〕˙//(`】乂〉Lˍ()pC]﹒﹙】nd‥)](l˙C()n〕/gUIde/  erS/Contecnt﹣DTrOvlIderrbasics﹒html。    ﹍重點整理﹍    (一一‥oaoereeoweeowwessowsmswesssmweswmmmew﹣﹣  腳「‧…  需要拍煒﹒可以用Intent來敗動系統的『相機』程式幫我 Intent的動作要設定為喻ediaNStore﹒ACTIONIN1A(z下﹍    後，預設會將相片的縮圖打包成Bitmap物件放在Intent中 ′由僖回的Intent參數中取出Bitmap資料來顯示。取出的方 (的附加資料轉成Bundle物件，再用Bundle的get(﹚來  圖片較小時     的sealeIype屬^  大時則要等比例縮小炳剛妤可以顯示全匯  式將原始相片存檔，可將想要存檔的路徑做成Uri物件，焢 l來啟動相機程式。  _悅"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_lable_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="取消" />
+
+            <Button
+                android:id="@+id/btn_lable_yes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="確定" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
